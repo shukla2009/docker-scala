@@ -5,7 +5,7 @@ MAINTAINER Rahul Shukla "rahul.shukla@avaliatech.com"
 ENV SCALA_HOME /usr/local/share/scala
 ENV PATH $PATH:$SCALA_HOME/bin
 
-ENV SCALA_VERSION 2.11.8
+ENV SCALA_VERSION 2.11.11
 
 RUN apt-get update && apt-get install wget && \
     wget --quiet http://downloads.lightbend.com/scala/$SCALA_VERSION/scala-$SCALA_VERSION.tgz && \
